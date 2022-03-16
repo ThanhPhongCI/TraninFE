@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;400;600&family=Roboto+Condensed:wght@300;400;700&family=Roboto:ital,wght@0,100;0,400;0,500;0,700;1,300&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="./assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="http://kit-pro.fontawesome.com/releases/v5.12.0/css/pro.min.css">
+    <link rel="stylesheet" href="./assets/css/reset.css">
+    <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+
+<body>
+    <div class="app">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-lg-2">
+                    <div class="category">
+                        <div class="category__img">
+                            <img src="./assets/img/Group.png" alt="" class="img">
+                        </div>
+
+                        <div class="category__list">
+                            <span class="category__list-text">Menu</span>
+                            <ul class="category__list-item">
+                                <li class="category__list-link">
+                                    <a href="" class="category__list-name">
+                                        <img src="./assets/img/member.png" alt="" class="category__list-img">
+                                        Thành viên
+                                    </a>
+                                </li>
+                                <li class="category__list-link category__list-link--color">
+                                    <a href="" class="category__list-name">
+                                        <img src="./assets/img/car.png" alt="" class="category__list-img">
+                                        Danh sách xe
+                                    </a>
+                                </li>
+                                <li class="category__list-link">
+                                    <a href="" class="category__list-name">
+                                        <img src="./assets/img/file.png" alt="" class="category__list-img">
+                                        Lịch sử xuống xe
+                                    </a>
+                                </li>
+                                <li class="category__list-link">
+                                    <a href="" class="category__list-name">
+                                        <img src="./assets/img/statistical.png" alt="" class="category__list-img">
+                                        Thống kê số liệu
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+
+                        <div class="category__btn">
+                            <a href="" class="category__btn-link">
+                                <img src="./assets/img/Group 9161.png" alt="" class="category__btn-click">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-10 container">
+                    <div class="container__header">
+                        <div class="container__header-left">
+                            <h2 class="container__header-text">Xe 01-29B-089.03</h2>
+                        </div>
+
+                        <div class="container__header-right">
+                            <img src="./assets/img/avt.png" alt="" class="container__header-img">
+                            <img src="./assets/img/down.png" alt="" class="container__header-img-icon">
+                        </div>
+                    </div>
+
+                    <div class="app__container">
+                        <div class="container__header-text">Chiều đón</div>
+
+                        <div class="app__container-driver">
+                            <table>
+                                <tr>
+                                    <td class="app__driver-text">Tên xe</td>
+                                    <td class="app__driver-info">
+                                        <input type="text" placeholder="Thêm tài xế" class="modal__content-input">
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td class="app__driver-text">Tài xế</td>
+                                    <td class="app__driver-info">
+                                        <input type="text" placeholder="Tìm tài xế" class="modal__content-input">
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td class="app__driver-text">Giám sát</td>
+                                    <td class="app__driver-info">
+                                        <input type="text" placeholder="Tìm giám sát" class="modal__content-input">
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td class="app__driver-text">Giờ xuất phát</td>
+                                    <td class="app__driver-info">
+                                        <div class="app__driver-time">
+                                            <img src="./assets/img/oclock.png" alt="" class="app_-driver-oclock">
+                                            7:00
+                                        </div>
+                                    </td>
+                                </tr>
+                            </table>
+                        </div>
+
+                        <div class="container__header-text">Lộ trình</div>
+
+                        <div class="app__driver-content">
+                            <div class="app_driver-header">
+                                <div class="app__address-number">1</div>
+                                <img src="./assets/img/del.png" alt="" class="app__driver-img">
+                            </div>
+                            <div class="app__driver-between">
+                                <table>
+                                    <tr>
+                                        <td class="app__driver-text">Địa chỉ</td>
+                                        <td class="app__driver-info app__driver-setting">
+                                            <input type="text" placeholder="Nhập địa chỉ"
+                                                class="modal__content-input modal__content-input--color">
+                                            <img src="./assets/img/up.png" alt="" class="app__driver-direction">    
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td class="app__driver-text">Đặc điểm</td>
+                                        <td class="app__driver-info app__driver-setting">
+                                            <input type="text" placeholder="Nhập địa chỉ"
+                                                class="modal__content-input modal__content-input--color">
+                                            <img src="./assets/img/godown.png" alt="" class="app__driver-direction">    
+
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td class="app__driver-text">Giờ tới</td>
+                                        <td class="app__driver-info">
+                                            <div class="app__driver-time app__driver-time--color">
+                                                <img src="./assets/img/oclock.png" alt="" class="app_-driver-oclock">
+                                                6:00
+                                            </div>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td class="app__driver-text">Học sinh</td>
+                                        <td class="app__driver-info">
+                                            <div class="app__driver-setting">
+                                                <div class="app__driver-member app__driver-time--color">
+                                                    3 học sinh
+                                                    <img src="./assets/img/Vector 10.png" alt="" style="padding-left: 5px; margin-right: 5px">
+                                                </div>
+
+                                                <div class="app__driver-change">
+                                                    <a href="" class="app__container-content">
+                                                        <img src="./assets/img/setting.png" alt="" class="app__container-img">
+                                                        <span class="app__container-drec">Sửa học sinh</span>
+                                                    </a>
+                                                </div>
+                                            </div>
+                                        </td>
+                                    </tr>
+                                </table>
+                            </div>
+                        </div>
+
+                        <div class="app__driver-content">
+                            <div class="app_driver-header">
+                                <div class="app__address-number">2</div>
+                                <img src="./assets/img/del.png" alt="" class="app__driver-img">
+                            </div>
+                            <div class="app__driver-between">
+                                <table>
+                                    <tr>
+                                        <td class="app__driver-text">Địa chỉ</td>
+                                        <td class="app__driver-info app__driver-setting">
+                                            <input type="text" placeholder="Nhập địa chỉ"
+                                                class="modal__content-input modal__content-input--color">
+                                            <img src="./assets/img/up.png" alt="" class="app__driver-direction">    
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td class="app__driver-text">Đặc điểm</td>
+                                        <td class="app__driver-info app__driver-setting">
+                                            <input type="text" placeholder="Nhập địa chỉ"
+                                                class="modal__content-input modal__content-input--color">
+                                            <img src="./assets/img/godown.png" alt="" class="app__driver-direction">    
+
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td class="app__driver-text">Giờ tới</td>
+                                        <td class="app__driver-info">
+                                            <div class="app__driver-time app__driver-time--color">
+                                                <img src="./assets/img/oclock.png" alt="" class="app_-driver-oclock">
+                                                6:00
+                                            </div>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td class="app__driver-text">Học sinh</td>
+                                        <td class="app__driver-info">
+                                            <div class="app__driver-setting">
+                                                <div class="app__driver-member app__driver-time--color">
+                                                    3 học sinh
+                                                    <img src="./assets/img/Vector 10.png" alt="" style="padding-left: 5px; margin-right: 5px">
+                                                </div>
+
+                                                <div class="app__driver-change">
+                                                    <a href="" class="app__container-content">
+                                                        <img src="./assets/img/setting.png" alt="" class="app__container-img">
+                                                        <span class="app__container-drec">Sửa học sinh</span>
+                                                    </a>
+                                                </div>
+                                            </div>
+                                        </td>
+                                    </tr>
+                                </table>
+                            </div>
+                        </div>
+
+                        <div class="app__driver-place">
+                            <div class="container__header-add">
+                                <button class="container__header-add-list">
+                                    <img src="./assets/img/place.png" alt="" class="container__header-add-img">
+                                    Thêm điểm
+                                </button>
+                            </div>
+                        </div>
+                        
+                        <div class="app__driver-footer">
+                            <button class="modal__footer-btn modal__footer--cancel">Hủy bỏ</button>
+                            <button class="modal__footer-btn modal__footer-btn--save">Lưu</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
